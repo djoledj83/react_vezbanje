@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clock {
+  font-family: "Bangers", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  color: brown;
+  border: 1px solid orangered;
+  padding: 20px;
+  border-radius: 10px;
 }

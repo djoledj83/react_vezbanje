@@ -15,7 +15,7 @@ let clock = () => {
   mins = mins < 10 ? "0" + mins : mins;
   sec = sec < 10 ? "0" + sec : sec;
 
-  let time = `${hrs}:${mins}:${sec}:${period}`;
+  let time = `${hrs}:${mins}:${sec} = ${period}`;
 
   document.getElementById("clock").innerText = time;
   setTimeout(clock, 1000);
